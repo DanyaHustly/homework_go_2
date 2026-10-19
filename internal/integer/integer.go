@@ -30,6 +30,9 @@ func Multiply(a, b int) int {
 //
 // TODO: верните результат целочисленного деления a на b. Если b равен 0, верните 0.
 func Divide(a, b int) int {
+	if b == 0 {
+		return 0
+	}
 	return a / b
 }
 
